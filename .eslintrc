@@ -1,0 +1,10 @@
+{
+	"parser": "babel-eslint",
+	"plugins": ["@lwc/eslint-plugin-lwc", "@salesforce/eslint-plugin-aura"],
+	"rules": {
+		"@lwc/lwc/no-deprecated": "error",
+		"@lwc/lwc/valid-api": "error",
+		"@lwc/lwc/no-document-query": "error"
+	},
+	"extends": ["plugin:@salesforce/eslint-plugin-aura/recommended", "plugin:@salesforce/eslint-plugin-aura/locker"]
+}
